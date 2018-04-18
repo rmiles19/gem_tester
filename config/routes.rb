@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'example/index'
+  root 'example#index'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
